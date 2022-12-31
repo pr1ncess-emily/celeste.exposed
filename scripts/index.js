@@ -32,7 +32,7 @@ const randomTriple = f => {
 
       if (choices.length > 0) {
         const choice = randomChoice(choices)
-        const [a, b] = [choice.aLabel.value, choice.bLabel.value];
+        let [a, b] = [choice.aLabel.value, choice.bLabel.value];
 
         // unnamed objects aren't very fun either
         // (such objects have labels like Q123456789)
